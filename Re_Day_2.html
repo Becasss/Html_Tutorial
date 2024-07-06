@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Re_Day_2.css">
+</head>
+<body>
+    <h2>HTML Links</h2>
+    <a href="https://www.facebook.com" target="_blank">facebook</a><br>
+   <a href="mailto:raeebikrsh@gmail.com" target="_blank">send mail</a> <br>
+   <a href="https://www.youtube.com" target="_blank"><img src="/Image/babyMonk.png" alt="IMage_Link"></a>
+   <button onclick="myfunction()">Click me!</button>
+   <button onclick="document.location='default.asp'">HTML tutorial</button>
+   <p id="demo"></p>
+   <script>
+    function myfunction(a,b) {
+        return a * b;
+    }
+    document.getElementById("demo").innerHTML =
+    "The product of 3 and 5 is " + myfunction(3,5);
+    
+   </script>
+</body>
+</html>
